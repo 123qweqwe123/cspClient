@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <!--<add key="Address" value="http://10.24.10.175:8083" description="IP地址和端口" />-->
+    <add key="Address" value="http://210.12.203.33" description="IP地址和端口" />
+    <add key="SearchDataVersion" value="/cspInterf/checkVersion" description="查询同步数据数据版本请求路径" />
+    <add key="DownLoadDataURL" value="/cspInterf/download" description="数据同步请求路径" />
+    <add key="uploadLoadDataURL" value="/cspInterf/upload/uploadData" description="数据上传请求路径" />
+    <add key="uploadResultURL" value="/cspInterf/upload/uploadResult" description="数据上传,解析路径" />
+    <add key="ftpInfourl" value="/cspInterf/upload/ftpInfo" description="数据上传请求路径" />
+
+    <add key="printFileVersion" value="/cspInterf/checkVersion" description="打印模版文件版本校验" />
+    <add key="printFile" value="/cspInterf/download" description="打印模版下载地址" />
+    
+    <add key="CurVersion" value="20171225001" description="当前版本号" />
+    <add key="GetNewVersion" value="/cspInterf/checkVersion" description="获取服务端版本号请求地址" />
+    <add key="GetVersionZip" value="/cspInterf/download?dictType=98" description="获取服务端版本号请求地址" />
+    <add key="AmqpHost" value="210.12.203.33" description="amqp消息服务IP地址" />
+    <add key="AmqpUser" value="csp123321" description="amqp消息服务用户名" />
+    <add key="AmqpPasd" value="csp#123321" description="amqp消息服务密码" />
+    <!--<add key="AmqpHost" value="10.24.10.174" description="amqp消息服务IP地址" />
+    <add key="AmqpUser" value="guest" description="amqp消息服务用户名" />
+    <add key="AmqpPasd" value="guest" description="amqp消息服务密码" />-->
+  </appSettings>
+</configuration>
